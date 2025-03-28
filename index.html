@@ -3,62 +3,38 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic details form</title>
+    <meta name="Author" content="MahdevBiswas">
+    <meta name="description" content="Official Website of The Buxa feeder cafe">
+    <title> The Buxa Feeder Cafe....</title>
+    <link rel="stylesheet" href="icon.jpg">
 </head>
 
 <body>
-    <h1>Student Details</h1>
-    <div><label for="name">Enter your name</label></div>
+    <header>
+        <h1>Welcome to The Buxa Feeder Cafe ! </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../home.html">Menu</a></li>
+            <li><a href="../contact.html" target="_blank">Contact</a></li>
+        </ul>
+    </nav>
+    <figure>
+        <img src="icon.jpg" alt="width= 100" height="80">
+    </figure>
     <div>
-        <input type="text" name="name" placeholder="Enter your name">
-    </div>
-    <div><label for="gender">Select Your gender</label></div>
-    <div>
-        <input type="radio" name="gender" id="male">
-        <label for="name">Male</label>
-        <input type="radio" id="female" name="gender">
-        <label for="name">Female</label>
-    </div>
-    <div><label for="city">Enter you city</label></div>
-    <div>
-        <input type="text" city="city name" placeholder="Enter your City">
-    </div>
-    <div>
-        <label for="pincode">Enter your pincode</label>
+        <form action="/Submit" method="post"></form>
+        <label for="Send YOUr Feedback"> Give your Feedback</label>
     </div>
     <div>
-        <input type="text" name="pincode">
+        <input type="text" name="Feedback ">
+        <input type="submit" value="Submit">
+
     </div>
-    <div>
-        <form action="/submit" method="post">
-            <!-- Text input for username -->
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-            <br><br>
-
-            <!-- Password input -->
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-            <br><br>
-
-            <!-- Radio buttons for gender -->
-            <label>Gender:</label>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label>
-            <br><br>
-
-            <!-- Submit button -->
-            <input type="submit" value="Submit">
-        </form>
-</body>
-</div>
-<div><img src="download.jpg"  width="100" height="80" alt="image"></div>
-
-<img src="OIP (1).jpg"width="100" height="80"   alt="image">
-
+    <footer>
+        <p>&copy; 2025 My Cafe | All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
